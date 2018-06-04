@@ -21,13 +21,13 @@ void loop() {
   
   delay(1000);                  // Espera 1 segundo ate o motor parar
   
-  digitalWrite(dir1, LOW);      // Aciona o pino 5, fazendo o motor girar noutro sentido
-  digitalWrite(dir2, HIGH);     // Desliga o pino 4
+  digitalWrite(dir1, LOW);      // Desliga o pino 5
+  digitalWrite(dir2, HIGH);     // Aciona o pino 4, fazendo o motor girar noutro sentido
   
   delay(2000);                  // Espera 2 segundos, onde o motor girará por este tempo
   
-  digitalWrite(dir1, LOW);      // Desliga o pino 5, fazendo o motor desacelerar
-  digitalWrite(dir2, LOW);      // Desliga o pino 4
+  digitalWrite(dir1, LOW);      // Desliga o pino 5
+  digitalWrite(dir2, LOW);      // Desliga o pino 4, fazendo o motor desacelerar
   
   delay(1000);                  // Espera 1 segundo até tudo se repetir novamente
   
